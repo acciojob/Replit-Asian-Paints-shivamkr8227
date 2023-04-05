@@ -1,5 +1,5 @@
 /*  your css code here. If applicable */
-.container{
+.grid-container{
 	display:grid;
 	height:400px;
 	width:400px;
@@ -11,6 +11,6 @@
 .item{
 	background-color:blue;
 }
-change_button:active{
+#change_button:active{
 	background-color:rgba(0,0,0,0);
 }
