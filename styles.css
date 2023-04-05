@@ -1,1 +1,16 @@
 /*  your css code here. If applicable */
+.container{
+	display:grid;
+	height:400px;
+	width:400px;
+	grid-column-gap:10px;
+	grid-row-gap:10px;
+	grid-template-columns:repeat(3, 1fr);
+	grid-template-rows:repeat(3, 1fr);
+}
+.item{
+	background-color:blue;
+}
+change_button:active{
+	background-color:rgba(0,0,0,0);
+}
