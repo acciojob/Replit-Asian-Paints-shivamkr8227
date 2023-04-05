@@ -11,6 +11,9 @@
 .item{
 	background-color:blue;
 }
+.grid-item{
+	background-color:rgb(255,0,0);
+}
 #change_button:active{
 	background-color:rgba(0,0,0,0);
 }
